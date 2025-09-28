@@ -129,12 +129,12 @@ vultr 经常有注册优惠活动，查找最新可用优惠活动参考：[**vu
 **依次执行以下三行命令**  (复制到 Xshell 右键粘贴)
 
 ```
-wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+wget --no-check-certificate -O ssr.sh https://github.com/Johnny-spec/-ssr-/blob/master/ssr.sh
 
 
 chmod +x shadowsocks-all.sh
 
-./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+./ssr.sh 2>&1 | tee ssr.log
 ```
 
 ![](https://github.com/Mr96s/SSR-FanQiang/blob/master/picture/%E5%AE%89%E8%A3%85%E5%91%BD%E4%BB%A4.png)
